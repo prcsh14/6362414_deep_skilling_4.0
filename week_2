@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week-2", "Week-2", "{7BCA9A0F-5A21-D1EE-5DD6-80F75BFFBC42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatorSolution", "CalculatorSolution", "{8426402F-CDA4-4470-1A3E-07960DA131EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcLibrary", "Week-2\CalculatorSolution\CalcLibrary\CalcLibrary.csproj", "{BDE8EE9E-1D88-D252-DA1C-DB4F7478E189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTests", "Week-2\CalculatorSolution\CalcTests\CalcTests.csproj", "{F475DAEA-0BB9-F6D2-400D-76F4F90FB409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE8EE9E-1D88-D252-DA1C-DB4F7478E189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE8EE9E-1D88-D252-DA1C-DB4F7478E189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE8EE9E-1D88-D252-DA1C-DB4F7478E189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE8EE9E-1D88-D252-DA1C-DB4F7478E189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F475DAEA-0BB9-F6D2-400D-76F4F90FB409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F475DAEA-0BB9-F6D2-400D-76F4F90FB409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F475DAEA-0BB9-F6D2-400D-76F4F90FB409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F475DAEA-0BB9-F6D2-400D-76F4F90FB409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8426402F-CDA4-4470-1A3E-07960DA131EE} = {7BCA9A0F-5A21-D1EE-5DD6-80F75BFFBC42}
+		{BDE8EE9E-1D88-D252-DA1C-DB4F7478E189} = {8426402F-CDA4-4470-1A3E-07960DA131EE}
+		{F475DAEA-0BB9-F6D2-400D-76F4F90FB409} = {8426402F-CDA4-4470-1A3E-07960DA131EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44216F85-F29A-4C50-91BC-D57809D179E7}
+	EndGlobalSection
+EndGlobal
